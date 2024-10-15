@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Noticias - Mi Empresa{% endblock %}
+
+{% block content %}
+<h1>Últimas Noticias</h1>
+<div class="news">
+    <article>
+        <h2>Nueva Sucursal</h2>
+        <img src="{{ url_for('static', filename='img/noticia.png') }}" alt="Nueva Sucursal" width="600">
+        <p>Abrimos una nueva sucursal en la ciudad de La Paz.</p>
+    </article>
+</div>
+{% endblock %}

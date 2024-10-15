@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Quiénes Somos - Mi Empresa{% endblock %}
+
+{% block content %}
+<h1>Quiénes Somos</h1>
+<p>Ortuño fue fundada en el año 2020 por un equipo de apasionados por la tecnología que busca transformar la forma en que las empresas acceden a soluciones digitales. Con el tiempo
+    , nos hemos consolidado como una de las firmas más confiables en consultoría tecnológica en la región.</p>
+
+<h2>Misión</h2>
+<p>Proporcionar soluciones tecnológicas innovadoras y personalizadas
+    , que impulsen el crecimiento de nuestros clientes a través del uso eficiente de herramientas digitales.</p>
+
+<h2>Visión</h2>
+<p>Ser una empresa líder en el desarrollo de plataformas tecnológicas 
+    que transformen y mejoren la forma en que las empresas operan en un mundo digital.</p>
+
+<h2>Nuestro equipo</h2>
+<div class="team">
+    <div class="member">
+        <img src="{{ url_for('static', filename='img/persona1.png') }}" alt="CEO">
+        <p>Ingeniera en sistemas con más de 10 años de experiencia en desarrollo de software.</p>
+    </div>
+    <div class="member">
+        <img src="{{ url_for('static', filename='img/persona2.png') }}" alt="CTO">
+        <p>Juan Pérez, CEO: Experto en estrategia empresarial y desarrollo de negocios digitales</p>
+    </div>
+</div>
+{% endblock %}

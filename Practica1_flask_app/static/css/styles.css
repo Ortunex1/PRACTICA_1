@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f17907;
+    color: #c52222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #1b1a1a;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.services, .team, .news {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service, .member, .news article {
+    text-align: center;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fd9b09;
+    margin-top: 20px;
+}
+
+
+/* Estilos adicionales para mejorar la presentación */
+.service, .member {
+    text-align: center;
+    padding: 20px;
+}
+
+.team, .services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service, .member {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+/* Estilos generales para las imágenes */
+img {
+    max-width: 200%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ajustar imágenes de servicios */
+.service img {
+    width: 300px; /* Puedes cambiar este valor según tus preferencias */
+    height: 300px; /* Ajusta la altura también si es necesario */
+    object-fit: cover; /* Recorta la imagen para que se ajuste bien */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+/* Ajustar imágenes del equipo */
+.member img {
+    width: 150px; /* Ajusta este valor para cambiar el tamaño de las imágenes del equipo */
+    height: 150px; /* Mismo valor para altura para mantener proporción */
+    object-fit: cover; /* Asegura que la imagen se recorte para ajustarse */
+    border-radius: 50%; /* Esto asegura que las imágenes sean circulares */
+    margin-bottom: 10px;
+}
+
+/* Estilos adicionales para mejorar la presentación */
+.service, .member {
+    text-align: center;
+    padding: 20px;
+}
+
+.team, .services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service, .member {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+iframe {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
